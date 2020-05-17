@@ -1,9 +1,13 @@
 html{
     scroll-behavior: smooth;
 }
-#about{
-    
+
+body{
+    width: 90%;
+    margin: auto;
 }
+
+
 #objectives{
     margin-top: 200%;
 }
@@ -12,4 +16,11 @@ html{
 }
 #call_action{
     margin-top: 400%;
+}
+
+@media only screen and (min-width: 768px) {
+    body{
+        width: 960px;
+        margin: auto;
+    }
 }
