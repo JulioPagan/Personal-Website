@@ -1,9 +1,14 @@
 html{
     scroll-behavior: smooth;
 }
-body{
+#content{
     width: 90%;
     margin: auto;
+}
+h1{
+    height: 10vh;
+    font-size: 4vh;
+    text-align: center;
 }
 .menu{
     width: 100%;
@@ -36,22 +41,25 @@ body{
     background-color: #33658a;
     color: white;
 }
+#home_screen{
+    background-image: url(/images/black-computer_key.jpg);
+}
 #about{
-    height: 100%;
+    margin-top: 100vh;
 }
 #objectives{
-    margin-top: 100%;
+    margin-top: 100vh;
 }
 #vision_mission{
-    margin-top: 100%;
+    margin-top: 100vh;
 }
 #call_action{
-    margin-top: 100%;
+    margin-top: 100vh;
 }
 
 
 @media only screen and (min-width: 768px) {
-    body{
+    #content{
         width: 960px;
         margin: auto;
     }
