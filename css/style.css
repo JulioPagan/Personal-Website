@@ -7,6 +7,37 @@ body{
     margin: auto;
 }
 
+.menu{
+    width: 100%;
+    overflow: hidden;
+    background-color: #2f4858;
+    position: relative;  
+}
+.menu #hideLinks{
+    display: none;
+}
+.menu a{
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;  
+}
+.menu a.icon {
+    background: #f26419;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.menu a:hover {
+    background-color: #86bbd8;
+    color: black;
+  }
+.home{
+    background-color: #33658a;
+    color: white;
+}
 
 #objectives{
     margin-top: 200%;
@@ -18,9 +49,14 @@ body{
     margin-top: 400%;
 }
 
+
 @media only screen and (min-width: 768px) {
     body{
         width: 960px;
         margin: auto;
+    }
+    .menu_option{
+        padding: 5%;
+        text-align: center;
     }
 }
