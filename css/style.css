@@ -100,6 +100,7 @@ h1{
     height: 100vh;
 }
 #about{
+    margin-top: 30%;
     height: 100vh;
 }
 #objectives{
@@ -130,5 +131,9 @@ h1{
 
     .social_media_img{
         width: 10%;
+    }
+
+    #about{
+        margin: auto;
     }
 }
