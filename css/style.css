@@ -48,9 +48,12 @@ h1{
 .checked{
     color: orange;
 }
-
+#top_container{
+    width: 100%;
+    text-align: center;
+}
 #skill_section{
-    width: 50%;
+    width: 45%;
     padding-bottom: 1vh;
     float: left;
 }
@@ -64,8 +67,9 @@ h1{
 }
 
 #project_section{
-    width: 50%;
+    margin-left: 45%;
     padding-bottom: 1vh;
+
 }
 #project_section h3{
     font-size: 3vh;
