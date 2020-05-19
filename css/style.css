@@ -52,6 +52,11 @@ h3{
 ul{
     padding-left: 3vh;
 }
+.list_section{
+    width: 40%;
+    display: inline-block;
+    float: none;
+}
 .checked{
     color: orange;
 }
