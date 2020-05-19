@@ -1,15 +1,17 @@
 html{
     scroll-behavior: smooth;
 }
-#content{
+#content_body{
     width: 90%;
     margin: auto;
 }
 h1{
-    height: 10vh;
+    height: 5vh;
     font-size: 4vh;
     text-align: center;
 }
+
+
 .menu{
     width: 100%;
     overflow: hidden;
@@ -41,26 +43,38 @@ h1{
     background-color: #33658a;
     color: white;
 }
+
+
+.checked{
+    color: orange;
+}
+
+
 #home_screen{
-    background-image: url(/images/black-computer_key.jpg);
+    background-image: url("/images/black-computer_key.jpg");
+    height: 100vh;
 }
 #about{
-    margin-top: 100vh;
+    height: 100vh;
 }
 #objectives{
-    margin-top: 100vh;
+    height: 100vh;
 }
 #vision_mission{
-    margin-top: 100vh;
+    height: 100vh;
 }
 #call_action{
-    margin-top: 100vh;
+    height: 100vh;
 }
 
 
 @media only screen and (min-width: 768px) {
-    #content{
+    #content_body{
         width: 960px;
         margin: auto;
+    }
+    h1{
+        height: 10vh;
+        font-size: 8vh;
     }
 }
