@@ -87,30 +87,53 @@ h1{
 
 
 .social_media_img{
-    width: 30%;
-    margin-left: 2%;
+    width: 20%;
+    margin-left: 9%;
 }
 
 
 
-
+img{
+    max-width: 100%;
+}
 
 
 #home_screen{
     height: 100vh;
 }
+
 #about{
     margin-top: 30%;
     height: 100vh;
+    padding-top: 1vh;
 }
+#about h2{
+    text-align: center;
+    font-size: 1.5em;
+}
+
 #objectives{
     height: 100vh;
+    padding-top: 1vh;
 }
+#objectives h2{
+    text-align: center;
+    font-size: 1.5em;
+}
+
 #vision_mission{
     height: 100vh;
 }
+#vision_mission h2{
+    text-align: center;
+    font-size: 1.5em;
+}
+
 #call_action{
     height: 100vh;
+}
+#call_action h2{
+    text-align: center;
 }
 
 
