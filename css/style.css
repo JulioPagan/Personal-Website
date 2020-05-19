@@ -44,27 +44,48 @@ h1{
     color: white;
 }
 
-h3{
+
+.checked{
+    color: orange;
+}
+
+#skill_section{
+    width: 50%;
+    padding-bottom: 1vh;
+    float: left;
+}
+#skill_section h3{
     font-size: 3vh;
     padding-top: 2vh;
     padding-bottom: 1vh;
 }
-ul{
+#skill_section ul{
     padding-left: 3vh;
 }
-.list_section{
-    width: 40%;
-    display: inline-block;
-    float: none;
+
+#project_section{
+    width: 50%;
+    padding-bottom: 1vh;
 }
-.checked{
-    color: orange;
+#project_section h3{
+    font-size: 3vh;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
 }
+#project_section ul{
+    padding-left: 3vh;
+}
+
 
 .social_media_img{
     width: 30%;
     margin-left: 2%;
 }
+
+
+
+
+
 
 #home_screen{
     height: 100vh;
