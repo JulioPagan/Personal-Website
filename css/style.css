@@ -4,11 +4,14 @@ html{
 #content_body{
     width: 90%;
     margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 130%;
 }
 h1{
-    height: 5vh;
-    font-size: 4vh;
+    font-size: 1.7em;
     text-align: center;
+    padding-top: .5em;
+    padding-bottom: .5em;
 }
 
 
@@ -50,17 +53,19 @@ h1{
 }
 #top_container{
     width: 100%;
-    height: 50%;
+    height: 45%;
 }
 #skill_section{
     width: 45%;
-    padding-bottom: 1vh;
+    padding-bottom: 1em;
     float: left;
+    line-height: 120%;
 }
 #skill_section h3{
-    font-size: 3vh;
-    padding-top: 2vh;
-    padding-bottom: 1vh;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 #skill_section ul{
     text-align: center;
@@ -68,24 +73,33 @@ h1{
 
 #project_section{
     margin-left: 45%;
-    padding-bottom: 1vh;
-
+    padding-bottom: 1em;
+    line-height: 120%;
 }
 #project_section h3{
-    font-size: 3vh;
-    padding-top: 2vh;
-    padding-bottom: 1vh;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 #project_section ul{
     text-align: center;
-}
-#project_section li{
 }
 .project_icon{
     width: 20%;
 }
 
-
+#home_footer{
+    text-align: center;
+}
+#home_footer h3{
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 0.5em;
+}
+#home_footer p{
+    padding-top: 0.5em;
+}
 .social_media_img{
     width: 20%;
     margin-left: 9%;
@@ -107,20 +121,36 @@ img{
     height: 100vh;
     padding-top: 1vh;
     padding-bottom: 1vh;
+    line-height: 130%;
+    text-align: center;
 }
 #about h2{
     text-align: center;
     font-size: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+#about_image{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #objectives{
     height: 100vh;
     padding-top: 1vh;
     padding-bottom: 1vh;
+    line-height: 130%;
+    text-align: center;
 }
 #objectives h2{
     text-align: center;
     font-size: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+#objectives_image{
+    width: 90%;
 }
 
 #vision_mission{
@@ -170,9 +200,22 @@ img{
         width: 10%;
     }
 
+
+    #about{
+        text-align: left;
+    }
     #about_image{
         width: 50%;
+        float: left;
     }
+    #about_text{
+        text-align: center;
+        width: 50%;
+        margin-left: 50%;
+        margin-top: 25%;
+    }
+
+
     #objectives_image{
         width: 50%;
     }
