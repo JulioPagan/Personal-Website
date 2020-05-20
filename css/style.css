@@ -151,7 +151,7 @@ img{
     padding-top: 1vh;
     padding-bottom: 1vh;
     line-height: 130%;
-    text-align: center;
+    text-align: justify;
 }
 #about h2{
     text-align: center;
@@ -169,7 +169,7 @@ img{
     height: 100vh;
     padding-top: 1vh;
     padding-bottom: 1vh;
-    text-align: center;
+    text-align: justify;
 }
 #objectives h2{
     text-align: center;
@@ -179,6 +179,9 @@ img{
 }
 #objectives_image{
     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 #vision_mission{
@@ -186,7 +189,7 @@ img{
     padding-top: 1vh;
     padding-bottom: 1vh;
     line-height: 130%;
-    text-align: center;
+    text-align: justify;
 }
 #vision_mission h2{
     text-align: center;
@@ -199,7 +202,7 @@ img{
     height: 100vh;
     padding-top: 1vh;
     padding-bottom: 1vh;
-    text-align: center;
+    text-align: justify;
 
 }
 #call_action h2{
@@ -262,4 +265,10 @@ img{
         float: right;
     }
 
+    #vision_mission{
+        text-align: center;
+    }
+    #call_action{
+        text-align: center;
+    }
 }
