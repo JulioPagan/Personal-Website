@@ -100,6 +100,22 @@ h1{
 #home_footer p{
     padding-top: 0.5em;
 }
+#career_pursuit{
+    margin-bottom: 0.5em;
+    font-size: 1.3em;
+}
+#hobbies{
+    margin-bottom: 1em;
+}
+#hobbies h4{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1.2em;
+}
+#hobbies_left{
+    width: 50%;
+    float: left;
+}
 .social_media_img{
     width: 20%;
     margin-left: 9%;
