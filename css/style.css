@@ -222,9 +222,15 @@ img{
         margin-top: 25%;
     }
 
-
+    #objectives{
+        text-align: center;
+    }
+    #objectives_text{
+        margin-top: 25%;
+    }
     #objectives_image{
         width: 50%;
+        float: right;
     }
 
 }
