@@ -140,7 +140,6 @@ img{
     height: 100vh;
     padding-top: 1vh;
     padding-bottom: 1vh;
-    line-height: 130%;
     text-align: center;
 }
 #objectives h2{
@@ -157,23 +156,28 @@ img{
     height: 100vh;
     padding-top: 1vh;
     padding-bottom: 1vh;
-
+    line-height: 130%;
+    text-align: center;
 }
 #vision_mission h2{
     text-align: center;
     font-size: 1.5em;
-}
-#mission_image{
-    
+    padding-top: 1em;
+    padding-bottom: 0.5em;
 }
 
 #call_action{
     height: 100vh;
     padding-top: 1vh;
     padding-bottom: 1vh;
+    text-align: center;
+
 }
 #call_action h2{
     text-align: center;
+    font-size: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
 }
 
 
