@@ -2,16 +2,19 @@ html{
     scroll-behavior: smooth;
 }
 #content_body{
-    width: 90%;
     margin: auto;
     font-family: 'Open Sans', sans-serif;
     line-height: 130%;
+    background-color: #faf0e6;
 }
 h1{
     font-size: 1.7em;
     text-align: center;
     padding-top: .5em;
     padding-bottom: .5em;
+}
+img{
+    max-width: 100%;
 }
 
 
@@ -28,7 +31,7 @@ h1{
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.5em;
     display: block;  
 }
 .menu a.icon {
@@ -47,16 +50,15 @@ h1{
     color: white;
 }
 
+
 #home_screen{
-    height: 100vh;
-}
-.checked{
-    color: #a4c7bf;
 }
 #top_container{
     width: 100%;
     height: 45%;
 }
+
+
 #skill_section{
     width: 45%;
     padding-bottom: 1em;
@@ -72,6 +74,9 @@ h1{
 }
 #skill_section ul{
     text-align: center;
+}
+.checked{
+    color: #a4c7bf;
 }
 
 #project_section{
@@ -93,10 +98,10 @@ h1{
     width: 20%;
 }
 
+
 #home_footer{
     text-align: center;
 }
-
 #home_footer h3{
     text-align: center;
     font-size: 2em;
@@ -105,13 +110,18 @@ h1{
 #home_footer p{
     margin-top: 0.5em;
 }
+
 #career_pursuit{
     margin-bottom: 0.5em;
     font-size: 1.3em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     border: 1px solid black;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 #hobbies{
     margin-bottom: 1em;
 }
@@ -125,11 +135,14 @@ h1{
     width: 50%;
     float: left;
 }
+
 #socials{
     border: 1px solid black;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .social_media_img{
     width: 20%;
@@ -138,19 +151,10 @@ h1{
 }
 
 
-
-img{
-    max-width: 100%;
-}
-
-
-
 #about{
     margin-top: 30%;
-    height: 100vh;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    line-height: 130%;
+    padding-top: 1em;
+    padding-bottom: 1em;
     text-align: justify;
 }
 #about h2{
@@ -159,16 +163,22 @@ img{
     padding-top: 1em;
     padding-bottom: 0.5em;
 }
+#about_text{
+    padding-bottom: 0.5em;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
 #about_image{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
 
+
 #objectives{
-    height: 100vh;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
+    padding-top: 1em;
+    padding-bottom: 1em;
     text-align: justify;
 }
 #objectives h2{
@@ -181,13 +191,18 @@ img{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-
+}
+#objectives_text{
+    padding-bottom: 0.5em;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+
 #vision_mission{
-    height: 100vh;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
+    padding-top: 1em;
+    padding-bottom: 1em;
     line-height: 130%;
     text-align: justify;
 }
@@ -197,11 +212,17 @@ img{
     padding-top: 1em;
     padding-bottom: 0.5em;
 }
+#mission_text{
+    padding-bottom: 0.5em;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 #call_action{
-    height: 100vh;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
+    padding-top: 1em;
+    padding-bottom: 1em;
     text-align: justify;
 
 }
@@ -211,6 +232,12 @@ img{
     padding-top: 1em;
     padding-bottom: 0.5em;
 }
+#collaboration_text{
+    padding-bottom: 0.5em;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 @media only screen and (min-width: 960px) {
@@ -219,10 +246,10 @@ img{
         margin: auto;
     }
     h1{
-        height: 10vh;
         font-size: 5em;
     }
 
+    
     #top_container{
         width: 100%;
         height: 40%;
@@ -234,6 +261,7 @@ img{
     #project_right{
         margin-left: 45%;
     }
+
 
     .social_media_img{
         width: 10%;
@@ -254,6 +282,7 @@ img{
         margin-top: 25%;
     }
 
+
     #objectives{
         text-align: center;
     }
@@ -268,7 +297,11 @@ img{
     #vision_mission{
         text-align: center;
     }
+
+
     #call_action{
         text-align: center;
     }
+
+
 }
