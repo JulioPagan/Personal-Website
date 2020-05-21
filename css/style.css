@@ -21,7 +21,7 @@ img{
 .menu{
     width: 100%;
     overflow: hidden;
-    background-color: #2f4858;
+    background-color: #46637b;
     position: relative;  
 }
 .menu #hideLinks{
@@ -35,32 +35,31 @@ img{
     display: block;  
 }
 .menu a.icon {
-    background: #f26419;
+    background: #a4c7bf;
     display: block;
     position: absolute;
     right: 0;
     top: 0;
 }
 .menu a:hover {
-    background-color: #86bbd8;
+    background-color: #e6f0fa;
     color: black;
   }
 .home{
-    background-color: #33658a;
+    background-color: #46637b;
     color: white;
 }
 
 
-#home_screen{
-}
-#top_container{
-    width: 100%;
-    height: 45%;
+#top_section{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
 #skill_section{
-    width: 45%;
+    width: 50%;
     padding-bottom: 1em;
     float: left;
     line-height: 120%;
@@ -80,7 +79,7 @@ img{
 }
 
 #project_section{
-    margin-left: 45%;
+    margin-left: 50%;
     padding-bottom: 1em;
     line-height: 120%;
 }
@@ -101,6 +100,7 @@ img{
 
 #home_footer{
     text-align: center;
+    padding-top: 1.5em;
 }
 #home_footer h3{
     text-align: center;
@@ -116,7 +116,7 @@ img{
     font-size: 1.3em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    border: 1px solid black;
+    border: 2px solid #a4c7bf;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -137,7 +137,7 @@ img{
 }
 
 #socials{
-    border: 1px solid black;
+    border: 2px solid #a4c7bf;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     width: 95%;
@@ -222,7 +222,6 @@ img{
 
 #call_action{
     padding-top: 1em;
-    padding-bottom: 1em;
     text-align: justify;
 
 }
@@ -238,6 +237,11 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
+#collaboration_image{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 @media only screen and (min-width: 960px) {
@@ -249,7 +253,7 @@ img{
         font-size: 5em;
     }
 
-    
+
     #top_container{
         width: 100%;
         height: 40%;
